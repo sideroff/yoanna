@@ -1,11 +1,5 @@
 import { KeyValue } from '@angular/common';
 import { Component } from '@angular/core';
-
-interface Kv {
-  value: string;
-  viewValue: string;
-}
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
